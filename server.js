@@ -1,3 +1,8 @@
+// This is where you run the app 
+// Most of the api logic here
+
+
+
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
@@ -59,7 +64,7 @@ app.post('/generate-story', async (req, res) => {
         }, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.OPENAI_API_KEY}` // Corrected this line
+                'Authorization': `Bearer ${process.env.OPENAI_API_KEY}` 
             }
         });
 

@@ -24,7 +24,7 @@ ul.list-group {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%; /* This will make the width of the ul as wide as its content */
+  width: 10%; 
   text-align: center;
 }
 
@@ -58,7 +58,6 @@ footer {
 }
 
 .card-bgcolor{
-  /* background-color:#04d9ff ; */
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   color:  #FFFef2;
 
@@ -69,12 +68,12 @@ footer {
 }
 
 .card {
-  width: 75%; /* or any width you prefer */
-  /* Other styles */
+  width: 75%; 
+  
 }
 
 .container-fluid {
-  max-width: 1200px; /* or any max-width you prefer */
+  max-width: 1200px; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,16 +83,16 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align items to the top */
-  height: 100vh; /* Keeps the full height */
+  justify-content: flex-start; 
+  height: 100vh; 
   text-align: center;
-  padding-top: 60px; /* Adjust this value to move the elements lower from the top */
+  padding-top: 60px; 
 }
 
 
 textarea {
-  width: 80%; /* Increase the width */
-  border-radius: 10px; /* Rounded edges */
+  width: 80%; 
+  border-radius: 10px; 
   margin-top: 20px;
   padding: 10px;
   resize: vertical;
@@ -103,11 +102,11 @@ button {
   margin-top: 10px;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 10px; /* Rounded edges */
-  /* You can also add styles for background color, border, etc., if you want */
+  border-radius: 10px; 
+  
 }
 
-/* Centering Container */
+
 .centered-container2 {
   display: flex;
   flex-direction: column;
@@ -117,26 +116,26 @@ button {
   padding: 20px;
 }
 
-/* Button Styling */
+
 .generate-btn {
   padding: 10px 20px;
   margin-bottom: 20px;
   cursor: pointer;
   border-radius: 5px;
-  background-color: white; /* Adjust color as needed */
-  color: black; /* Adjust text color as needed */
+  background-color: white; 
+  color: black; 
   border: none;
 }
 
-/* Textarea for Story Output */
+
 .story-output {
-  width: 80%; /* Adjust width as needed */
-  height: 300px; /* Adjust height as needed */
+  width: 80%; 
+  height: 300px; 
   padding: 10px;
   border-radius: 5px;
   background-color: white;
-  border: 1px solid #ccc; /* Light grey border */
-  resize: none; /* Prevent resizing */
+  border: 1px solid #ccc; 
+  resize: none; 
 }
 
 img {
@@ -144,16 +143,16 @@ img {
   height: auto;
 }
 .navbar-toggler-icon  {
-  background-color: white; /* Change the background of the toggler */
+  background-color: white; 
 }
 
 
 .navbar-toggler-icon svg {
-  fill: white; /* Change the color of the SVG itself */
+  fill: white; 
 }
 
 
-/* Example: Styling for screens smaller than 600px */
+
 @media (max-width: 600px) {
   body {
       background-color: lightblue;
@@ -161,25 +160,24 @@ img {
   
 }
 
-/* Assuming default styles for larger screens (desktop view) where cards are side by side */
 
-/* For medium screens */
+
 @media (max-width: 992px) {
   .card {
-      margin: 0 auto 20px; /* Adds margin to the bottom of each card for separation */
+      margin: 0 auto 20px; 
       display: block; 
   }
 }
 
-/* For small screens */
+
 @media (max-width: 768px) {
   .card {
-      width: 90%; /* or any desired width */
+      width: 90%; 
       margin: 0 auto 20px;
   }
 }
 
-/* For extra-small screens */
+
 @media (max-width: 576px) {
   .card {
       width: 100%; 
